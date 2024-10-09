@@ -193,7 +193,7 @@ body {
 .ted-lasso-section {
     position: relative;
     overflow: hidden;
-    color: white; /* Text color */
+    color: white;
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ body {
 
 .ted-lasso-overlay {
     position: absolute;
-    bottom: 10%; /* Adjust this to move the content closer to the bottom */
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -214,7 +214,7 @@ body {
 .ted-lasso-subtitle {
     font-size: 1.2rem;
     margin-top: 10px;
-    letter-spacing: 0.05rem; /* Adjust for better spacing between letters */
+    letter-spacing: 0.05rem;
 }
 
 .btn-stream-now {
@@ -237,9 +237,9 @@ body {
 }
 
 .screenshot-section img {
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Maintain the image aspect ratio */
-    border-radius: 10px; /* Optional: add a slight border radius if needed */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .footer-section {
